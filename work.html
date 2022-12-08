@@ -30,6 +30,33 @@
     ></script>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Rawan Logo"
+          />
+          <img
+            src="images/logo-small.jpg"
+            class="d-block d-md-none"
+            alt="Rawan Logo"
+            width="50"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage"> Home</a>
+          </li>
+          <li><a href="/about.html" title="About Rawan">About</a></li>
+          <li class="active">
+            <a href="/work.html" title="Rawan's work">Work</a>
+          </li>
+          <li><a href="/contact.html" title="Contact Rawan">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Take a look at what I've been working on!</h1>
@@ -38,7 +65,7 @@
             <img
               src="images/yogurt.png"
               class="img-fluid mb-3 rounded"
-              alt=""
+              alt="Yogurt project preview"
             />
             <h3 class="text-center m-0">Yogurt Project</h3>
             <p class="text-center text-muted">Built with HTML and CSS</p>
@@ -47,7 +74,7 @@
             <img
               src="images/weather.png"
               class="img-fluid mb-3 rounded"
-              alt=""
+              alt="Weather app preview"
             />
             <h3 class="text-center m-0">Weather Project</h3>
             <p class="text-center text-muted">
@@ -58,7 +85,7 @@
             <img
               src="images/dictionary.png"
               class="img-fluid mb-3 rounded"
-              alt=""
+              alt="Dictionary app preview"
             />
             <h3 class="text-center m-0">Dictionary App</h3>
             <p class="text-center text-muted">
@@ -69,7 +96,7 @@
             <img
               src="images/translation.png"
               class="img-fluid mb-3 rounded"
-              alt=""
+              alt="Translation app preview"
             />
             <h3 class="text-center m-0">Translation App</h3>
             <p class="text-center text-muted">
@@ -79,5 +106,56 @@
         </div>
       </div>
     </div>
+    <footer class="container">
+      <div
+        class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+      >
+        <div>
+          <h3>Work Inquiry</h3>
+
+          <p class="text-muted">Let's work together!</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding mt-3"
+            title="Contact Rawan"
+            >Contact Me</a
+          >
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:rawanawwad1227@gmail.com"
+          class="email-link"
+          title="Email Rawan"
+          >rawanawwad1227@gmail.com</a
+        >
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://www.github.com/rawwad97"
+          target="_blank"
+          title="Github Profile"
+          ><i class="fa-brands fa-github"></i></a
+        ><a
+          href="https://www.twitter.com/rawanawwad97"
+          target="_blank"
+          title="Twitter profile"
+          ><i class="fa-brands fa-twitter"></i></a
+        ><a
+          href="https://www.facebook.com/rawanawwad97"
+          target="_blank"
+          title="Facebook profile"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+      </div>
+      <p class="text-center mt-5">
+        ✌️ This project was coded by Rawan Awwad and it is
+        <a href="https://github.com/rawwad97/portfolio-project" target="_blank"
+          >open-sourced</a
+        >
+      </p>
+    </footer>
   </body>
 </html>
