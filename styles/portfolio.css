@@ -37,9 +37,8 @@ p {
   line-height: 30px;
 }
 .portrait {
-  max-width: min-content;
-  border-radius: 50px;
-  max-height: 60%;
+  border-radius: 15px;
+  max-height: 75%;
 }
 
 .hero {
@@ -115,9 +114,7 @@ p {
 .logo {
   max-height: 40px;
 }
-.self-portrait {
-  max-width: 100%;
-}
+
 nav {
   padding: 20px 0;
 }
@@ -197,5 +194,8 @@ footer .social-links a:hover {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+  .portrait {
+    max-height: 100%;
   }
 }
